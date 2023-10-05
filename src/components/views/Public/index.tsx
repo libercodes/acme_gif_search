@@ -1,11 +1,12 @@
-import { Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
+import { GifView } from './GifView'
 
 export const PublicRoutes = () => (
   <Switch>
-    {/*     <Route
+    <Route
       path={'/'}
-      component={Login}
+      component={GifView}
       exact
-    /> */}
+    />
   </Switch>
 )
